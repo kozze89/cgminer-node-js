@@ -23,6 +23,5 @@
   "license": "BSD",
   "dependencies": {
     "q": "~0.9.6"
-  },
-  "bin": { "cgminer-cli": "./bin/cgminer-cli" }
+  }
 }
