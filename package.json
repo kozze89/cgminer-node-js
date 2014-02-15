@@ -2,13 +2,13 @@
   "name": "cgminer",
   "version": "0.1.0",
   "description": "API client for CGMiner Bitcoin miner",
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tlrobinson/node-cgminer.git"
+    "url": "https://github.com/kozze89/cgminer-node-js.git"
   },
   "keywords": [
     "bitcoin",
@@ -22,8 +22,7 @@
   "author": "Tom Robinson",
   "license": "BSD",
   "dependencies": {
-    "q": "~0.9.6",
-    "coffee-script": "~1.6.3"
+    "q": "~0.9.6"
   },
   "bin": { "cgminer-cli": "./bin/cgminer-cli" }
 }
